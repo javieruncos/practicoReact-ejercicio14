@@ -9,7 +9,7 @@ const ItemProducto = ({arregloRecetas}) => {
             <td>{arregloRecetas.nombreReceta}</td>
             <td>{arregloRecetas.imagen}</td>
             <td>{arregloRecetas.categoria}</td>
-            {/* <td><Button>editar</Button><Button>borrar</Button></td> */}
+            <td><Button className='mx-1'>editar</Button><Button>borrar</Button></td>
           </tr>
         </>
     );

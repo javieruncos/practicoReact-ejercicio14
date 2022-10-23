@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useEffect,useState } from 'react';
 import { Container,Row } from 'react-bootstrap';
+import { consultarApi } from '../../helper/queries';
 import CardProducto from './producto/CardProducto';
 
 const Inicio = () => {
+
+   const [arregloReceta, setarregloReceta] = useState([])
+
+
+
+    useEffect(()=>{
+       consultarApi().then((respuesta)=>{
+        setarregloReceta(respuesta)
+       })
+    },[])
+
+
+
+
+
     return (
         <Container className='mainSection'>
             <div className='my-5 text-center'>
@@ -10,7 +26,9 @@ const Inicio = () => {
             </div>
             <div>
                 <Row>
-                    <CardProducto></CardProducto>
+                   {
+                    arregloReceta.map((item)=> <CardProducto arregloReceta={item} key={item.id}></CardProducto>)
+                   }
                 </Row>
             </div>
         </Container>
