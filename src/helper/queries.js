@@ -13,3 +13,22 @@ export const consultarApi = async()=>{
     return false
   }
 }
+
+
+
+
+export const crearProductoApi = async(receta)=>{
+   try{
+     const respuesta = await fetch(URL,{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json"
+      },
+      body:JSON.stringify(receta)
+     });
+     return respuesta
+   }catch(error){
+    console.log(error)
+    return false
+   }
+}
