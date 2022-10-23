@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/common/Footer";
 import CrearProducto from "./components/view/producto/CrearProducto";
 import EditarProducto from "./components/view/producto/EditarProducto";
+import DetalleProducto from "./components/view/producto/DetalleProducto";
 
 function App() {
   return (
@@ -30,6 +31,11 @@ function App() {
             exact
             path="/administrador/editar/:id"
             element={<EditarProducto></EditarProducto>}
+          ></Route>
+          <Route
+            exact
+            path="/detalle/:id"
+            element={<DetalleProducto></DetalleProducto>}
           ></Route>
           <Route exact path="*" element={<Error404></Error404>}></Route>
         </Routes>

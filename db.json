@@ -1,18 +1,11 @@
 {
   "producto": [
     {
-      "nombreReceta": "pastas",
-      "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "*tomates \n*lechuga\n*cebolla\n*zanahoria\n+dadasdasa\n*dasdasdsa",
-      "categoria": "Ensaladas",
-      "id": 2
-    },
-    {
-      "nombreReceta": "guiso",
-      "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd",
-      "categoria": "Guisos",
-      "id": 3
+      "nombreReceta": "Ñoquis de espinacas",
+      "imagen": "https://www.recetasnestle.com.ar/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/e8ed9246f63560d6bd56560684f74533.jpg.webp?itok=zxYkOfwL",
+      "ingredientes": "1 Unidad Huevo\n1 Taza Puré De Papas Maggi\n1 Pizca Sal\n1 Pizca Pimienta\n1 1/2 Taza harina 0000\n1 Taza Agua Caliente\n100 Gramos Espinaca Cocida Al Vapor, Escurrida Y Picada\n2 Unidades Puerros\n2 Cucharadas Aceite\n200 Centimetros cúbicos Crema\n1 Pizca Nuez Moscada",
+      "categoria": "Pastas",
+      "id": 4
     }
   ]
 }
