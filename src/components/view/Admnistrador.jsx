@@ -40,7 +40,7 @@ const Admnistrador = () => {
           </thead>
           <tbody>
             {arregloRecetas.map((item) => (
-              <ItemProducto arregloRecetas={item}></ItemProducto>
+              <ItemProducto arregloRecetas={item} setArregloRecetas={setArregloRecetas}></ItemProducto>
             ))}
           </tbody>
         </Table>

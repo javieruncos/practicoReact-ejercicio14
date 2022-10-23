@@ -47,3 +47,40 @@ export const borrarProductoApi= async(id)=>{
       return false
     }
 }
+
+
+
+
+export const obtenerRecetaApi = async(id)=>{
+   try{
+      const respuesta = await fetch(URL+"/"+id)
+      const receta ={
+        dato: await respuesta.json(),
+        status: respuesta.status
+      };
+      return receta
+   }catch(error){
+    console.log(error)
+    return false
+   }
+}
+
+
+
+
+export const editarRecetaApi = async(id,receta)=>{
+  try{
+    const respuesta = await fetch(URL+"/"+id,{
+      method:"PUT",
+      headers:{
+        "Content-Type":"application/json"
+      },
+      body:JSON.stringify(receta)
+    });
+    return respuesta
+
+  }catch(error){
+    console.log(error)
+    return false
+  }
+}

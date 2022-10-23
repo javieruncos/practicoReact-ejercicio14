@@ -1,66 +1,18 @@
 {
   "producto": [
     {
-      "nombreReceta": "Croquetas express de pollo",
-      "imagen": "https://www.coosur.com/uploads/recetasaceiteoliva/croquetas-de-pollo-asado.jpg",
-      "categoria": "pollo",
-      "id": 1
-    },
-    {
-      "nombreReceta": "ensalada",
+      "nombreReceta": "pastas",
       "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
       "ingredientes": "*tomates \n*lechuga\n*cebolla\n*zanahoria\n+dadasdasa\n*dasdasdsa",
       "categoria": "Ensaladas",
       "id": 2
     },
     {
-      "nombreReceta": "ensalada",
+      "nombreReceta": "guiso",
       "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "*tomates \n*lechuga\n*cebolla\n*zanahoria\n+dadasdasa\n*dasdasdsa",
-      "categoria": "Ensaladas",
+      "ingredientes": "asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd",
+      "categoria": "Guisos",
       "id": 3
-    },
-    {
-      "nombreReceta": "ensalada",
-      "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "*tomates \n*lechuga\n*cebolla\n*zanahoria\n+dadasdasa\n*dasdasdsa",
-      "categoria": "Ensaladas",
-      "id": 4
-    },
-    {
-      "nombreReceta": "ensalada",
-      "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "*tomates \n*lechuga\n*cebolla\n*zanahoria\n+dadasdasa\n*dasdasdsa",
-      "categoria": "Ensaladas",
-      "id": 5
-    },
-    {
-      "nombreReceta": "ensalada",
-      "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "dasdasdasdasdasdasdasdasdasdasdasdasdasd\nasda\nsda\nsd\nasd\nasd\nasd\nas",
-      "categoria": "Ensaladas",
-      "id": 6
-    },
-    {
-      "nombreReceta": "ensalada",
-      "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "dasdasdasdasdasdasdasdasdasdasdasdasdasd\nasda\nsda\nsd\nasd\nasd\nasd\nas",
-      "categoria": "Ensaladas",
-      "id": 7
-    },
-    {
-      "nombreReceta": "ensalada",
-      "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "dasdasdsaddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
-      "categoria": "Ensaladas",
-      "id": 8
-    },
-    {
-      "nombreReceta": "ensalada",
-      "imagen": "https://th.bing.com/th/id/OIP.AR86W2bf5HNk6mAQ5D5pagHaLH?pid=ImgDet&rs=1",
-      "ingredientes": "dasdasdsaddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
-      "categoria": "Ensaladas",
-      "id": 9
     }
   ]
 }

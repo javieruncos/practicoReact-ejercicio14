@@ -7,6 +7,7 @@ import Menu from "./components/common/Menu";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/common/Footer";
 import CrearProducto from "./components/view/producto/CrearProducto";
+import EditarProducto from "./components/view/producto/EditarProducto";
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
             exact
             path="/crearProducto"
             element={<CrearProducto></CrearProducto>}
+          ></Route>
+          <Route
+            exact
+            path="/administrador/editar/:id"
+            element={<EditarProducto></EditarProducto>}
           ></Route>
           <Route exact path="*" element={<Error404></Error404>}></Route>
         </Routes>
