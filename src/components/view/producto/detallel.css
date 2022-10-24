@@ -5,3 +5,10 @@
             
     }
 }
+@media all and (max-width:920px){
+    .card-detalle{
+        display: flex;
+        flex-direction: column;
+            
+    }
+}

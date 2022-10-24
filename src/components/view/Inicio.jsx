@@ -20,7 +20,7 @@ const Inicio = () => {
 
 
     return (
-        <Container className='mainSection'>
+        <Container className='mainSection my-5'>
             <div className='my-5 text-center'>
             <h1>Todo Recetas</h1>
             </div>

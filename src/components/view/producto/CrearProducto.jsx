@@ -94,6 +94,29 @@ const CrearProducto = () => {
             </Form.Text>
           </Form.Group>
 
+          <Form.Group className="mb-3" controlId="formBasicCheckbox">
+            <Form.Label>Preparar</Form.Label>
+            <Form.Control
+              as="textarea"
+              placeholder="modo de preparacion"
+             {...register("preparar",{
+                required:"este campo es obligatorio",
+                minLength:{
+                    value:50,
+                    message:"la cantidad minima de caracteres es de 50"
+                },
+                maxLength:{
+                    value:2200,
+                    message:"la cantidad maxima de caracteres es de 500"
+                }
+             })}
+              style={{ height: "200px" }}
+            />
+            <Form.Text className="text-danger">
+             {errors.preparar?.message}
+            </Form.Text>
+          </Form.Group>
+
           <Form.Group className="mb-5" controlId="formBasicEmail">
             <Form.Label>Categoria</Form.Label>
             <Form.Select aria-label="Default select example"

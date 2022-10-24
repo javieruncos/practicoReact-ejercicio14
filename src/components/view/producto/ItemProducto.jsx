@@ -6,18 +6,32 @@ import { borrarProductoApi, consultarApi } from "../../../helper/queries";
 
 const ItemProducto = ({ arregloRecetas, setArregloRecetas }) => {
   const borrarReceta = () => {
-    borrarProductoApi(arregloRecetas.id).then((respuesta) => {
-      if (respuesta.status === 200) {
-        Swal.fire(
-          "producto elimininado",
-          "el producto se elimino exitosamente",
-          "success"
-        );
-        consultarApi().then((respuesta) => {
-          setArregloRecetas(respuesta);
+    Swal.fire({
+      title: "Estas seguro que quieres eliminar esta receta?",
+      text: "No podras revertir esta paso",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "SI, Eliminar!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        borrarProductoApi(arregloRecetas.id).then((respuesta) => {
+          if (respuesta.status === 200) {
+            Swal.fire(
+              "producto elimininado",
+              "el producto se elimino exitosamente",
+              "success"
+            );
+            consultarApi().then((respuesta) => {
+              setArregloRecetas(respuesta);
+            });
+          } else {
+            Swal.fire("error", "al fallo intente nuevamente", "error");
+          }
         });
-      } else {
-        Swal.fire("error", "al fallo intente nuevamente", "error");
+
+        Swal.fire("Deleted!", "Your file has been deleted.", "success");
       }
     });
   };

@@ -15,7 +15,7 @@ const Admnistrador = () => {
   }, []);
 
   return (
-    <Container className="mainSection">
+    <Container className="mainSection mt-5">
       <div className="d-flex justify-content-around text-center my-5">
         <div className="text-center">
           <h1>Administrador de Recetas</h1>
