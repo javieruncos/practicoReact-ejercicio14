@@ -1,14 +1,6 @@
 {
   "producto": [
     {
-      "nombreReceta": "Pierogi",
-      "imagen": "https://www.recetasnestle.com.ar/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/767c0f489da5724253d9c55da977d5c7.jpg.webp?itok=LHVFjoWk",
-      "ingredientes": "1 Unidad Cebolla Picada\n20 Gramos Manteca\n3 Tazas Puré De Papas Maggi\n1 Pizca Sal\n1 Pizca Pimienta\n3 Unidades Huevo\n250 Gramos Queso Crema\n3 Tazas harina 0000\n1 Cucharada Polvo Para Hornear\n1/4 Cucharadita Sal\n80 Gramos Manteca\n1 Pizca Perejil Picado\n",
-      "preparar": "1.  Para el relleno, rehogar en una sartén la cebolla picada con la manteca (20 g) por 5 minutos. Retirar y mezclar con el Puré de papas Nestlé frío y condimentar con sal y pimienta.\n\n2.  Para la masa, batir los huevos junto con el queso crema hasta lograr una mezcla homogénea. Cernir la harina, el polvo para hornear y la sal; agregar a la mezcla anterior y unir para formar una masa. Amasar sobre una superficie enharinada hasta lograr una consistencia firme y suave.\n\n\n\n\n",
-      "categoria": "Pastas",
-      "id": 7
-    },
-    {
       "nombreReceta": "Ñoquis de Espinacas",
       "imagen": "https://www.recetasnestle.com.ar/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/e8ed9246f63560d6bd56560684f74533.jpg.webp?itok=zxYkOfwL",
       "ingredientes": "1 Unidad Huevo\n1 Taza Puré De Papas Maggi\n1 Pizca Sal\n1 Pizca Pimienta\n1 1/2 Taza harina 0000\n1 Taza Agua Caliente\n100 Gramos Espinaca Cocida Al Vapor, Escurrida Y Picada\n2 Unidades Puerros\n2 Cucharadas Aceite\n200 Centimetros cúbicos Crema",
@@ -55,6 +47,14 @@
       "preparar": "1.  Para la crema, mezclar las yemas con la Leche Condensada Nestle. Agregar la leche y la esencia. Llevar la mezcla a fuego lento, revolviendo constantemente, hasta que la preparación tome cuerpo.\n\n2.  Retirar del fuego y pasar por un tamiz para evitar algún grumo. Llevar a la heladera tapada con papel film.\n\n3.  En un bol colocar las claras a temperatura ambiente, agregar sal y empezar a batir a velocidad media durante 1 minuto. De a poco ir agregando el azúcar, y batir a velocidad alta hasta que la preparación esté brillante, unos 3 a 4 minutos. El merengue tiene que sostenerse firme al levantar el batidor.\n\n4.  Con una espátula, colocar dentro de un molde savarín acaramelado (Ver Sección Caramelo) tratando de que no queden huecos de aire. Colocar el molde en una placa con bordes de unos 5 cm de alto y cocinar a Baño de Maria en un horno precalentado a 115 ºC (temperatura bien baja).\n\n5.  Cocinar por 40 minutos aproximadamente. En ese lapso debería haber subido hasta el borde del molde y estar bastante firme al tacto.\n\n6.  Apagar el horno y dejar enfriar la isla flotante adentro, con la puerta cerrada.\n\n7.  Envolver en papel film y enfriar por lo menos 8 horas.\n\n8.  Para desmoldar, colocar el molde sobre fuego bajo, moviéndolo para calentar en forma pareja hasta que la isla se mueva dentro del molde.\n\n9.  Con cuidado, desmoldar sobre la fuente en la cual se lo va a servir, que debe tener algún borde, para poder contener el caramelo.Servir acompañado de la crema.\n\n10.  Mezclar el azúcar, agua y jugo de limón.\n\n11.  Colocar en una olla baja (o una sartén antiadherente) y cocinar a fuego lento sin remover hasta que tome consistencia (pasará de un espeso \"jarabe\" a ir adquiriendo una tonalidad más oscura). El punto ideal del caramelo es cuando su color es claro (como la miel), si se pone muy oscuro puede tomar un sabor amargo.\n\n12.  En el momento en que adquiera la consistencia y el color deseado, mover la olla o sartén suavemente (sin utilizar espátula) para unificar.\n\n13.  Una vez listo, retirarlo y utilizar inmediatamente, antes de que se endurezca.",
       "categoria": "Postres",
       "id": 13
+    },
+    {
+      "nombreReceta": "Mousse de frutilla ",
+      "imagen": "https://www.recetasnestle.com.ar/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/0771a1df93d8447003b5775095635b59.jpg.webp?itok=AKGijd7q",
+      "ingredientes": "395 Gramos Crema De Leche\n300 Gramos Puré De Frutillas\n1 Paquete Leche Condensada Nestlé\n1 Cucharada Jugo De Naranja\n1 Unidad Ralladura De Naranja\n2 Cucharaditas Gelatina Sin Sabor\n3 Cucharadas Agua (Fría)",
+      "preparar": "\n1.  Mezclar el puré de frutillas con el jugo y la ralladura de naranja y añadir la Leche condensada Nestle.\n\n2.  Hidratar la gelatina en el agua fría, calentar y añadir a la preparación anterior.\n\n3.  Batir la crema e incorporar a la preparación anterior. Colocar en boles y dejar enfriar en la heladera.",
+      "categoria": "Postres",
+      "id": 14
     }
   ]
 }
