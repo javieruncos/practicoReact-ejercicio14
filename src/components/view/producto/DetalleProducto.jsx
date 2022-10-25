@@ -20,7 +20,7 @@ const DetalleProducto = () => {
   }, []);
 
   return (
-    <Container className="mainSection">
+    <Container className="mainSection mt-5">
       <div className="my-5">
         <h1>receta</h1>
       </div>

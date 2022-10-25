@@ -6,7 +6,8 @@ import "../view/producto/Menu.css"
 const Menu = () => {
     return (
      <>
-      <Navbar bg="dark" expand="lg" className='navbar-dark Navbar'>
+     <header className='Navbar'>
+      <Navbar bg="dark" expand="lg" className='navbar-dark '>
       <Container>
         <Navbar.Brand as={Link} to="/">Recetas</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,6 +19,7 @@ const Menu = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+     </header>
      </>
     );
 };
