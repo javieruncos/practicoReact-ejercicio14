@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import { borrarProductoApi, consultarApi } from "../../../helper/queries";
+import "./item.css"
 
 const ItemProducto = ({ arregloRecetas, setArregloRecetas }) => {
   const borrarReceta = () => {
@@ -41,7 +42,7 @@ const ItemProducto = ({ arregloRecetas, setArregloRecetas }) => {
       <tr>
         <td>{arregloRecetas.id}</td>
         <td>{arregloRecetas.nombreReceta}</td>
-        <td>{arregloRecetas.imagen}</td>
+        <td><img src={arregloRecetas.imagen} alt="imagen" style={{"width":100}}/></td>
         <td>{arregloRecetas.categoria}</td>
         <td>
           <Button

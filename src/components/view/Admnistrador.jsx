@@ -28,14 +28,14 @@ const Admnistrador = () => {
       </div>
 
       <div>
-        <Table responsive>
+        <Table responsive size="sm">
           <thead>
             <tr>
               <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
-              <th>Username</th>
+              <th>Receta</th>
+              <th>Imagen</th>
+              <th>Categoria</th>
+              <th>acciones</th>
             </tr>
           </thead>
           <tbody>
