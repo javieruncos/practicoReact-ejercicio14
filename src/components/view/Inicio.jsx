@@ -27,7 +27,7 @@ const Inicio = () => {
             <div>
                 <Row>
                    {
-                    arregloReceta.map((item)=> <CardProducto arregloReceta={item} key={item.id}></CardProducto>)
+                    arregloReceta.map((item)=> <CardProducto arregloReceta={item} key={item._id}></CardProducto>)
                    }
                 </Row>
             </div>

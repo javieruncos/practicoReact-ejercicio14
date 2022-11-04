@@ -34,7 +34,7 @@ const EditarProducto = () => {
     
       const onSubmit = (data) => {
          editarRecetaApi(id,data).then((respuesta)=>{
-            if(respuesta.status === 200){
+            if(respuesta.status === 201){
                 Swal.fire("se edito correctamente","la receta se edito exitosamente","success")
                 navegacion("/administrador")
             }else{
@@ -62,7 +62,7 @@ const EditarProducto = () => {
                   message: "la cantidad minima de caracteres es de 3",
                 },
                 maxLength: {
-                  value: 200,
+                  value: 300,
                   message: "la cantidad maxima de caracteres es de 200",
                 },
               })}

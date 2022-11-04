@@ -17,7 +17,7 @@ const ItemProducto = ({ arregloRecetas, setArregloRecetas }) => {
       confirmButtonText: "SI, Eliminar!",
     }).then((result) => {
       if (result.isConfirmed) {
-        borrarProductoApi(arregloRecetas.id).then((respuesta) => {
+        borrarProductoApi(arregloRecetas._id).then((respuesta) => {
           if (respuesta.status === 200) {
             Swal.fire(
               "producto elimininado",
@@ -40,7 +40,7 @@ const ItemProducto = ({ arregloRecetas, setArregloRecetas }) => {
   return (
     <>
       <tr>
-        <td>{arregloRecetas.id}</td>
+        <td>{arregloRecetas._id}</td>
         <td>{arregloRecetas.nombreReceta}</td>
         <td><img src={arregloRecetas.imagen} alt="imagen" style={{"width":100}}/></td>
         <td>{arregloRecetas.categoria}</td>
@@ -48,7 +48,7 @@ const ItemProducto = ({ arregloRecetas, setArregloRecetas }) => {
           <Button
             className="mx-1"
             as={Link}
-            to={`/administrador/editar/${arregloRecetas.id}`}
+            to={`/administrador/editar/${arregloRecetas._id}`}
           >
             editar
           </Button>
