@@ -15,11 +15,11 @@ const Registro = ({setUsuario}) => {
   const onSubmit = (dato) => {
    crearUsuario(dato).then((respuesta)=>{
      if(respuesta.status === 201){
-       Swal.fire("el usuario se creo correctamente","success")
+       Swal.fire("el usuario creado","El usuario se creo correctamente","success")
        localStorage.setItem("usuario",JSON.stringify(dato))
        setUsuario(dato)
     }else{
-        Swal.fire("error al crear el usuario ","error")
+        Swal.fire("error al crear el usuario","intenta nuevamente","error")
     }
    })
   };
@@ -91,7 +91,7 @@ const Registro = ({setUsuario}) => {
             </Form.Text>
           </Form.Group>
           <Button variant="primary" type="submit">
-            Submit
+            Enviar
           </Button>
         </Form>
         {/* <form className="mt-5 w-100 mx-auto shadow py-5 px-5"

@@ -107,3 +107,26 @@ export const crearUsuario = async(usuario)=>{
       return false
     }
 }
+
+
+
+
+export const login = async (usuario)=>{
+    try {
+      const respuesta = await fetch(URLusuario);
+      const listaUsuario = await respuesta.json()
+      const usuarioBuscado = listaUsuario.find((item)=> item.email === usuario.email)
+      if(usuarioBuscado){
+        console.log("email encontrado")
+        if(usuarioBuscado.password === usuario.password){
+          return usuarioBuscado
+        }
+      }else{
+        console.log("email no encontrado")
+        return
+      }
+    } catch (error) {
+      console.log(error)
+      return false
+    }
+}

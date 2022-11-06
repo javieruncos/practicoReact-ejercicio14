@@ -10,7 +10,6 @@ const Admnistrador = () => {
   useEffect(() => {
     consultarApi().then((respuesta) => {
       setArregloRecetas(respuesta);
-      console.log(respuesta);
     });
   }, []);
 

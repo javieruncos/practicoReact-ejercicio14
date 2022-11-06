@@ -53,15 +53,9 @@
   "Usuario": [
     {
       "NombreUsuario": "javier",
-      "email": "javier@gmail",
+      "email": "javier@gmail.com",
       "password": "12345678",
       "id": 1
-    },
-    {
-      "NombreUsuario": "carlos",
-      "email": "carlos@mail.com",
-      "password": "12345678",
-      "id": 2
     }
   ]
 }

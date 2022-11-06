@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Menu Usuario={usuario} setUsuario={setUsuario}></Menu>
+        <Menu Usuario={Usuario} setUsuario={setUsuario}></Menu>
         <Routes>
           <Route exact path="/" element={<Inicio></Inicio>}></Route>
           <Route
@@ -51,7 +51,7 @@ function App() {
           <Route
             exact
             path="/login"
-            element={<Login></Login>}
+            element={<Login setUsuario={setUsuario}></Login>}
           ></Route>
           <Route
             exact
