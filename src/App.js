@@ -9,6 +9,7 @@ import Footer from "./components/common/Footer";
 import CrearProducto from "./components/view/producto/CrearProducto";
 import EditarProducto from "./components/view/producto/EditarProducto";
 import DetalleProducto from "./components/view/producto/DetalleProducto";
+import Login from "./components/view/producto/Login";
 
 function App() {
   return (
@@ -36,6 +37,11 @@ function App() {
             exact
             path="/detalle/:id"
             element={<DetalleProducto></DetalleProducto>}
+          ></Route>
+          <Route
+            exact
+            path="/login"
+            element={<Login></Login>}
           ></Route>
           <Route exact path="*" element={<Error404></Error404>}></Route>
         </Routes>

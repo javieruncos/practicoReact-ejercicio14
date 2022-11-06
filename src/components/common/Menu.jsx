@@ -15,6 +15,8 @@ const Menu = () => {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Inicio</Nav.Link>
             <Nav.Link as={Link} to="/administrador">Administrador</Nav.Link>
+            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+            <Nav.Link as={Link} to="/administrador">Registarse</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
