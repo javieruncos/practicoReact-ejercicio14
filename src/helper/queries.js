@@ -1,5 +1,7 @@
-const URL = process.env.REACT_APP_API_RECETAS
 
+
+const URL = process.env.REACT_APP_API_RECETAS
+const URLusuario = process.env.REACT_APP_API_USUARIO;
 
 
 
@@ -83,4 +85,48 @@ export const editarRecetaApi = async(id,receta)=>{
     console.log(error)
     return false
   }
+}
+
+
+
+
+
+export const crearUsuario = async(usuario)=>{
+    try {
+      const respuesta = await fetch(URLusuario,{
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json"
+        },
+        body:JSON.stringify(usuario)
+      })
+      return respuesta
+      
+    } catch (error) {
+      console.log(error)
+      return false
+    }
+}
+
+
+
+
+export const login = async (usuario)=>{
+    try {
+      const respuesta = await fetch(URLusuario);
+      const listaUsuario = await respuesta.json()
+      const usuarioBuscado = listaUsuario.find((item)=> item.email === usuario.email)
+      if(usuarioBuscado){
+        console.log("email encontrado")
+        if(usuarioBuscado.password === usuario.password){
+          return usuarioBuscado
+        }
+      }else{
+        console.log("email no encontrado")
+        return
+      }
+    } catch (error) {
+      console.log(error)
+      return false
+    }
 }

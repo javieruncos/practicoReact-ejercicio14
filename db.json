@@ -49,5 +49,13 @@
       "categoria": "Postres",
       "id": 14
     }
+  ],
+  "Usuario": [
+    {
+      "NombreUsuario": "javier",
+      "email": "javier@gmail.com",
+      "password": "12345678",
+      "id": 1
+    }
   ]
 }

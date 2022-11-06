@@ -1,0 +1,12 @@
+
+.divForm{
+    width: 50%;
+}
+
+@media all and (max-width:540px){
+ .divForm{
+    width: 100%;
+   
+ }
+}
+
